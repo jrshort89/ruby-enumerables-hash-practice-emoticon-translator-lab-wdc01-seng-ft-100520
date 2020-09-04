@@ -4,11 +4,8 @@ require 'yaml'
 
 def load_library(arr)
   # code goes here
-  def load_library
   # code goes here
 
-  p emojis
-end
 end
 
 def get_japanese_emoticon
