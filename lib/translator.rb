@@ -3,7 +3,12 @@ require 'yaml'
 
 def load_library(emojis)
   # code goes here
+  sortedHash = {}
   emojis = YAML.load_file(emojis)
+  emojis.each { |key, val| 
+    sortedHash[key] = {:english => val[0], :japanese => val[1]}
+  }
+  sortedHash
 end
 
 
