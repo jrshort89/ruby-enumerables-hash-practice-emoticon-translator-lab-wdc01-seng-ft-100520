@@ -19,7 +19,7 @@ def get_japanese_emoticon(emojis, emot)
   emojis.each { |key, val| 
     val.each { |key2, val2| 
       if val2 == emot
-        ans = val[:english]
+        ans = val[:japanese]
       end
   }
 }
