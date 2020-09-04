@@ -29,6 +29,19 @@ end
 ans
 end
 
-def get_english_meaning
+def get_english_meaning(emojis, emot)
   # code goes here
+    ans = ""
+  emojis = load_library(emojis)
+  emojis.each { |key, val| 
+    val.each { |key2, val2| 
+      if val2 == emot
+        ans = key
+      end
+  }
+}
+if ans == ""
+  ans = "Sorry, that emoticon was not found"
+end
+ans
 end
