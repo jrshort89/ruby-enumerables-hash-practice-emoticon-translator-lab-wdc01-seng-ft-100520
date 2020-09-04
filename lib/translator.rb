@@ -24,7 +24,7 @@ def get_japanese_emoticon(emojis, emot)
   }
 }
 if ans == ""
-  
+  ans = "Sorry, that emoticon was not found"
 end
 ans
 end
