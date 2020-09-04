@@ -23,6 +23,9 @@ def get_japanese_emoticon(emojis, emot)
       end
   }
 }
+if ans == ""
+  
+end
 ans
 end
 
